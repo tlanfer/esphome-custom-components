@@ -2,8 +2,8 @@
 
 These are custom components for [esphome](https://esphome.io/).
 
-## Git text sensor
-
+## git_commit_sha text sensor
+Provides a text sensor with the current git commit hash of the firmware at compile time.
 ```yaml
 external_components:
   - source: github://tlanfer/esphome-custom-components
